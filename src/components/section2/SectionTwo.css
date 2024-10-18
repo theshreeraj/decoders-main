@@ -1,0 +1,56 @@
+.sectionTwo-heading{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.sectionTwo-container{
+    background-color: black;
+    height: auto;
+   
+}
+
+.culture-vid-container{
+    display: flex;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.speaker-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+.speaker-card{
+   width: 30%;
+   height: 450px;
+   border: 1px solid rgb(165, 165, 165);
+
+   border-radius: 1rem;
+background-size: cover;
+}
+
+.speaker-card1{
+    background-image: url("../../assets/speaker1.webp");
+}
+
+.speaker-card2{
+    background-image: url("../../assets/speaker2.webp");
+}
+
+.speaker-card3{
+    background-image: url("../../assets/speaker3.webp");
+}
+
+
+.speaker-card-heading{
+    color: white;
+    font-size: 40px;
+    padding: 1rem;
+}

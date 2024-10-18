@@ -1,0 +1,23 @@
+.navbar-container{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 8px;
+}
+
+
+
+.logo-container > img{
+    height: 60px;
+
+}
+
+.nav-menu{
+    display: flex;
+    gap: 1rem;
+}

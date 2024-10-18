@@ -1,0 +1,20 @@
+.guest-card-container{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.guest-card-dp{
+    width: 50%;
+    margin: auto;
+}
+
+.guest-card-dp > img{
+  
+   width: 100%;
+    border-radius: 50%;
+}
