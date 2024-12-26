@@ -12,7 +12,7 @@ const Navbar = () => {
 
       <div className="nav-menu">
         <p>Sessions</p>
-        <Link to="/speakers">
+        <Link to="/speakers" style={{ textDecoration: "none", color: "black" }}>
           <p>Speakers</p>
         </Link>
       </div>

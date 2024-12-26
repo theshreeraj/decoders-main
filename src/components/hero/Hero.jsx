@@ -9,7 +9,13 @@ const Hero = () => {
         A community of Designers & Developers Jamming together every Saturday &
         Sunday
       </p>
-      <button className="cta-btn">Join In</button>
+      <a
+        href="https://chat.whatsapp.com/F8YBIaTYsNNDU0Axde9Ey5"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button className="cta-btn">Join In</button>
+      </a>
     </div>
   );
 };
